@@ -143,7 +143,8 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-	Serverfireteam\Blog\BlogServiceProvider::class
+	Serverfireteam\Blog\BlogServiceProvider::class,
+	Illuminate\Broadcasting\BroadcastServiceProvider::class
 
     ],
 
